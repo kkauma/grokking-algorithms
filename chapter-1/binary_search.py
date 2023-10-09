@@ -13,13 +13,13 @@ def binary_search(list, item):
             high = mid - 1
         else:
             low = mid + 1
-        return None
+    return None
 
 
-# [1, 2, 3, 4, 5, 6, 7, 8, 9], 3
-# low         mid          high
-#                guess
-
-my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9]
-result = binary_search(my_list, 3)
+my_list = [11, 25, 36, 47, 58, 69, 77, 85, 92]
+result = binary_search(my_list, 77)
 print(result)
+
+my_list2 = [1, 3, 5, 7, 9]
+result2 = binary_search(my_list2, 3)
+print(result2)
