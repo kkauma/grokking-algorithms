@@ -18,8 +18,8 @@ def binary_search(list, item):
 
 my_list = [11, 25, 36, 47, 58, 69, 77, 85, 92]
 result = binary_search(my_list, 77)
-print(result)
+print(result)  # 6
 
 my_list2 = [1, 3, 5, 7, 9]
 result2 = binary_search(my_list2, 3)
-print(result2)
+print(result2)  # 1
